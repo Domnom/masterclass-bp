@@ -1,0 +1,194 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "TODO - Create a category name",
+            "scenes": [
+                {
+                    "id": 2,
+                    "title": "TODO - Create a scene name",
+                    "steps": [
+                        {
+                            "title": "step-01",
+                            "gitData": {},
+                            "windowSettings": {
+                                "description": {
+                                    "isClosed": false,
+                                    "top": "0px",
+                                    "left": "0px",
+                                    "width": "45%",
+                                    "height": "100%",
+                                    "transitions": []
+                                },
+                                "code": {
+                                    "isClosed": false,
+                                    "top": "0px",
+                                    "left": "50%",
+                                    "width": "45%",
+                                    "height": "80%",
+                                    "transitions": []
+                                },
+                                "cli": {
+                                    "isClosed": true,
+                                    "bottom": "0px",
+                                    "left": "50%",
+                                    "width": "45%",
+                                    "height": "20%",
+                                    "transitions": []
+                                }
+                            },
+                            "timeline": [
+                                {
+                                    "id": 1,
+                                    "panel": "description",
+                                    "start": 0,
+                                    "duration": 100,
+                                    "description": [
+                                        {
+                                            "tag": "p",
+                                            "txt": "Initialising the masterclass-versioning project!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "step-02",
+                            "gitData": {},
+                            "windowSettings": {
+                                "description": {
+                                    "isClosed": false,
+                                    "top": "0px",
+                                    "left": "0px",
+                                    "width": "45%",
+                                    "height": "100%",
+                                    "transitions": []
+                                },
+                                "code": {
+                                    "isClosed": false,
+                                    "top": "0px",
+                                    "left": "50%",
+                                    "width": "45%",
+                                    "height": "80%",
+                                    "transitions": []
+                                },
+                                "cli": {
+                                    "isClosed": true,
+                                    "bottom": "0px",
+                                    "left": "50%",
+                                    "width": "45%",
+                                    "height": "20%",
+                                    "transitions": []
+                                }
+                            },
+                            "timeline": [
+                                {
+                                    "id": 1,
+                                    "panel": "code",
+                                    "start": 0,
+                                    "duration": 100,
+                                    "code": {
+                                        "template": "step-02/code/package.hbs",
+                                        "partial_sections": [],
+                                        "output": "package.json"
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "panel": "code",
+                                    "start": 0,
+                                    "duration": 100,
+                                    "code": {
+                                        "template": "step-02/code/Animal.schema.hbs",
+                                        "partial_sections": [],
+                                        "output": "Animal.schema.ts"
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "panel": "cli",
+                                    "start": 0,
+                                    "duration": 100,
+                                    "cmds": [
+                                        {
+                                            "execute": "git checkout -b feature/animal"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "panel": "cli",
+                                    "start": 0,
+                                    "duration": 100,
+                                    "cmds": [
+                                        {
+                                            "execute": "The animal schema takes in the name of an animal"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "trailing-commits",
+                            "gitData": {},
+                            "windowSettings": {
+                                "description": {
+                                    "isClosed": false,
+                                    "top": "0px",
+                                    "left": "0px",
+                                    "width": "45%",
+                                    "height": "100%",
+                                    "transitions": []
+                                },
+                                "code": {
+                                    "isClosed": false,
+                                    "top": "0px",
+                                    "left": "50%",
+                                    "width": "45%",
+                                    "height": "80%",
+                                    "transitions": []
+                                },
+                                "cli": {
+                                    "isClosed": true,
+                                    "bottom": "0px",
+                                    "left": "50%",
+                                    "width": "45%",
+                                    "height": "20%",
+                                    "transitions": []
+                                }
+                            },
+                            "timeline": [
+                                {
+                                    "id": 1,
+                                    "panel": "code",
+                                    "start": 0,
+                                    "duration": 100,
+                                    "code": {
+                                        "template": "trailing-commits/code/Animal.schema.hbs",
+                                        "partial_sections": [
+                                            {
+                                                "partial_id": "partial_1",
+                                                "start": 0,
+                                                "duration": 100,
+                                                "template": "trailing-commits/code/Animal.schema_partials/partial_1.hbs",
+                                                "template_data": {}
+                                            },
+                                            {
+                                                "partial_id": "partial_2",
+                                                "start": 100,
+                                                "duration": 100,
+                                                "template": "trailing-commits/code/Animal.schema_partials/partial_2.hbs",
+                                                "template_data": {}
+                                            }
+                                        ],
+                                        "output": "Animal.schema.ts"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
